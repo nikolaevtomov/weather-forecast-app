@@ -1,0 +1,46 @@
+
+.search {
+  width: 100%;
+  float: left;
+  margin: 15px auto;
+
+  &__input {
+    width: 80%;
+    float: left;
+
+    &--in {
+      width: 100%;
+      float: left;
+      height: 30px;
+    }
+
+  }
+  &__btn {
+    width: 20%;
+    float: left;
+
+    & button {
+      float: right;
+      padding: 8px 20px;
+    }
+  }
+}
+
+.weatherTable {
+  width: 100%;
+  float: left;
+
+  & thead {
+    height: 40px;
+    text-align: center;
+  }
+  & tbody {
+    text-align: center;
+  }
+
+}
+
+td:first-of-type {
+    width: 180px;
+    height: 120px;
+}
