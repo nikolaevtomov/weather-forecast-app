@@ -7,7 +7,7 @@
 3. Run `gulp prod`
 4. Run `gulp test`
 
-#### This startup project includes following libraries:
+#### This project includes following libraries:
 
 - [ReactJS](https://github.com/facebook/react)
 - [React Router](https://github.com/rackt/react-router)
