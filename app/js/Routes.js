@@ -18,7 +18,7 @@ import reducers                                      from './reducers';
 const createStoreWithMiddleware = applyMiddleware(ReduxPromise, ReduxThunk)(createStore);
 
 export default (
-  <Provider store={ createStoreWithMiddleware(reducers) }>
+  <Provider store={ createStoreWithMiddleware(reducers,   window.devToolsExtension ? window.devToolsExtension() : f => f) }>
     <Router history={ browserHistory }>
       <Route path="/" component={ App }>
 
