@@ -7,7 +7,6 @@
 3. Run `gulp prod`
 4. Run `gulp test`
 
-
 #### This project includes following libraries:
 
 - [ReactJS](https://github.com/facebook/react)
